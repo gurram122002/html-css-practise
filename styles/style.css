@@ -1,0 +1,40 @@
+body{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding-left: 80px;
+}
+.navbar{
+    display: flex;
+    padding: 25px;
+    
+    font-size: 25px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 80px;
+}
+.body_page p{
+    background-color: white;
+    color: black;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    width: 16%;
+    /* height: 10%; */
+    padding: 14px;
+    margin-top: 35px;
+}
+.body_page h1{
+    text-align: left;
+    font-size: -webkit-xxx-large;
+}
+.body_page h2{
+    text-align: left;
+    background-color: #ab8f43;
+    width: 14%;
+    padding-left: 16px;
+    padding-top: 12px;
+    height: 11%;
+    border-radius: 5px;
+}

@@ -1,0 +1,134 @@
+
+.nav {
+    color: white;
+    display: flex;
+    padding: 20 80;
+}
+
+.nav a {
+    padding: 5px 80px;
+    padding: auto;
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    display: inline-block;
+}
+
+#a {
+    padding-left: 80px;
+    width: 40%;
+    height: auto;
+}
+
+.box #a img{
+    width: 10%;
+}
+
+ .box #b img{
+    /* height: fit-content; */
+     width: 3px; 
+}
+
+
+
+.box p{
+    color: black;
+    background-color: white;
+    width: 30%;
+    border: 2px;
+    text-align: center;
+}
+
+.text_in_large {
+    padding-left: 50px;
+    color: white
+}
+
+.img_section {
+    display: flex;
+}
+
+.Courses {
+    text-align: center;
+    /* Aligns content horizontally */
+    margin: 0 auto;
+    /* Centers element horizontally */
+    padding: 20px;
+    /* Adds padding inside the section */
+}
+
+.Courses table {
+    border-collapse: 1px;
+    /* Removes borders between table cells */
+    padding: 30px;
+    border-spacing: 50px;
+    display: flex;
+}
+
+.Courses th,
+.Courses td {
+    text-align: center;
+    /* Aligns table content horizontally */
+    padding: 10px 30px;
+    /* Adds padding and sets column width */
+    border: 1px solid white;
+    /* White border for table cells */
+    color: rgb(96, 96, 240);
+    /* Text color blue */
+    /**/
+}
+
+.Courses th,
+.Courses td:first-child {
+    color: white;
+    background-color: #575eee;
+    /* Light gray background for headers and first column*/
+}
+
+
+.Courses h1 {
+    text-decoration: none;
+    /* Removes underline from heading */
+    color: rgb(255, 254, 254);
+    /* Keeps your original heading color */
+}
+
+.cards_container {
+    padding: 50px;
+}
+
+.cards_container table {
+    border-spacing: 20px;
+}
+
+.cards_container button {
+    color: #f8da64;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+.why_us {
+    color: white;
+
+}
+
+.why_us img {
+    display: flex;
+    align-items: center;
+
+    margin: 10px;
+}
+
+.explore {
+    text-align: center;
+
+}

@@ -1,0 +1,417 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hash Include</title>
+    <link rel="icon" type="image/x-icon" href="assets/download-removebg-preview.png">
+    <link rel="stylesheet" href="styles/style1.css">
+    <style>
+        .le{
+           display: inline-block; 
+           width: 20%;
+           height: 30%;
+           border: 3px solid rgb(247, 241, 241);
+           border-radius: 8px;
+           padding: 10px;
+           margin: 10px;
+           text-align: center;
+        }
+        .le img {
+            padding-left: 35%;
+        }
+        
+        .Learning-Experience {
+            background-color: rgb(43, 41, 41);
+            padding: 20px 50px 20px 50px;
+            height:fit-content;
+            /* max-width: 100%; */
+            /* margin: auto; */
+        }
+
+        .Learning-Experience h2 ,.Learning-Experience p {
+            text-align: center;
+        }
+
+        .Training {
+           
+            background-color: rgb(10, 9, 9);
+            padding: 20px 60px 20px 80px;
+        }
+        .train {
+            display: inline-block;
+            
+           
+        }
+
+        div#c-img {
+        padding: 50px;
+        padding-left: 50px;
+        }
+        #trainingid {
+        background-color: lightblue;
+        color: darkblue;
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 9px 20px;
+        display: inline-block;
+        }
+        .tick_icon {
+            display: flex;
+        }
+        .about_us {
+            background-color: rgb(21, 19, 19);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 40px 100px;
+            /* display: inline-block; */
+        }
+        .about_section {
+            display: inline-flex;
+        }
+        #ab_out {
+            padding: 20px 80px;
+            /* padding-right: 30px; */
+        }
+        #large_text {
+            font-size: large;
+            line-height: 36px;
+        }
+        .about a {
+        text-decoration: none;
+        border: 2px solid #f8da63;
+        padding: 8px;
+        color: #f8da63;
+        border-radius: 4px;
+        font-weight: bold;
+        }
+        .us{
+            display: flex;
+        }
+        .bottom_section {
+            width: 25%;
+            text-align: center;
+        }
+        h2.num {
+            font-size: xx-large;
+            color: white;
+        }
+        span.symbol {
+            color:#f8da63
+        }
+        .testimonial {
+            padding:20px 80px;
+            background-color: rgb(43, 42, 42);
+        }
+        .testimonial-sec {
+            display: flex;
+        }
+        .card {
+            /* display: inline-block; */
+            /* padding: 2px 6px 8px 4px; */
+            margin:10px;
+            border: 2px solid white;
+            border-radius: 8px;
+            background-color: rgb(73, 56, 56);
+            padding: 25px;
+        }
+        .card p{
+            line-height: 25px;
+            font-size:large;
+            /* font-weight: 125px; */
+        }
+        .sec2 {
+            padding: 2px 8px;
+            display: inline-block;
+        }
+        .box_sec {
+            padding: 30px 80px;
+        }
+        .box_sec1 {
+            display: flex;
+            background-color: rgb(108, 108, 239);
+        }
+
+    </style>
+</head>
+
+<body style="background-color: rgb(20, 19, 19);">
+    
+    <!-- Nav bar is used here -->
+    <section style="padding-left: 20px; border: 2px solid white;">
+        <div class="nav">
+            <img src="assets/hash-include-logo.svg" alt="#includeicon">
+            <a href="#home"><b>Home</b></a>
+            <a href="#Courses"><b>Courses</b></a>
+            <a href="#About us"><b>About Us</b></a>
+            <a href="Career Guidance"><b>Career Guidance</b></a>
+            <button>Login</button>
+        </div>
+        <!--Nav bar ends here and start section-->
+
+    <div class="headerandnav">
+        <div class="box" id="a">
+            <p>Never Stop Learning</p>
+            <h1>
+                Elevate Your Skills<br>With Hash Include's Guidance
+            </h1>
+            <p>EXPLORE PATH</p><img src="assets/banner-sub-image.svg" alt="subimage">            
+        </div>
+        <!-- two boxes with same class -->
+        <div class="box" id="b">
+            <img src="assets/banner-main-img.svg" alt="manimage" height="400" width="500">
+        </div>
+
+    </div>
+
+</section>
+    
+
+    <section>
+     <!-- <table>
+            <tr>
+                <td height="100%" width="50%">
+        <div class="text_in_large">
+            <button><h3>Never stop learning</h3></button>
+            <h1>Elevate Your Skills<br>With Hash Include's <br>Guidance</h1>
+            <button style="background-color:#ffe69c" height="20px" width="50px">EXPLORE PATH</button>
+            <img src="assets/banner-sub-image.svg" alt="small_img">
+        </div>
+            </td>
+        <td>
+        <div class="img_section">
+            <img src="assets/banner-main-img.svg" alt="image" height="70%" width="60%" >
+        </div>
+    </td>
+    </tr>
+
+    </table> -->
+    <div class="explore">
+        <img src="assets/explore.svg" alt="explore" style="border: 28px solid blue; border-radius: 128px;">
+    </div>
+    <div class="Courses">
+        <h1><u>Popular Courses</u></h1>
+        <table>
+            <tr>
+                <td>All Programs</td>
+                <td>Front-end development</td>
+                <td>Fullstack development</td>
+                <td>Testing</td>
+                <td>UI/UX designing</td>
+            </tr>
+        </table>
+    </div>
+    <div class="cards_container">
+        <table>
+            <tr>
+                <td><img src="assets/card-1-v1.svg" alt="card1"></td>
+                <td><img src="assets/card-2-v1.svg" alt="card2"></td>
+                <td><img src="assets/card-3-v1.svg" alt="card3"></td>
+                <td><img src="assets/card-4-v1.svg" alt="card4"></td>
+            </tr>
+            <tr>
+                <td><img src="assets/student-card-icons.svg" alt="small_icons"></td>
+                <td><img src="assets/student-card-icons.svg" alt="small_icons"></td>
+                <td><img src="assets/student-card-icons.svg" alt="small_icons"></td>
+                <td><img src="assets/student-card-icons.svg" alt="small_icons"></td>
+            </tr>
+            <tr style="color:white">
+                <td><h2>Front-End development</h2>
+                <p>Create captivating user experiences with expertise in HTML, CSS, JavaScript, and Angular/React. Mastering the art of web design from concepyion to implentation.</p>
+            </td>
+            <td><h2>UI/UX Designing</h2>
+            <p>Dive into the world of user interface and user experience design, crafting visually stunning and intuitive digital experiences while mastering the principles of effective design and user interaction.
+            </p></td>
+            <td>
+                <h2>Testing</h2>
+                <p>Gain expertise in testing methodologies and techniques to ensure the quality and reliability of software applications, mastering the skills necessary for thorough and effective testing processes</p>
+            </td>
+            <td><h2>Full-Stack Development</h2><p>Become a versatile developer proficient in both front-end and back-end technologies, equipped to build robust and scalable web applications from start to finish.</p></td>
+            </tr>
+            <tr style="color:white;text-align: center;">
+                <td><button>Learn More</button></td>
+                <td><button>Learn More</button></td>
+                <td><button>Learn More</button></td>
+                <td><button>Learn More</button></td>
+            </tr>
+        </table>
+    </div>
+</section>
+<h1><u>Why Us?</u></h1>
+<p style="text-align: center;">Experience expert-led IT education tailored to your needs. Our proven track record and flexible learnig<br>options empower your journey to success.</p>
+<div class="why_us">
+    <div class="img" id="1r" style="display: flex;">
+    <span><img src="assets/ai-img.svg" alt="ai_img"><p>Workshops on AI</p></span>
+    <span><img src="assets/networking.svg" alt="network_img"><p>Linked-In Networking</p></span>
+    <span><img src="assets/resume.svg" alt="resume_img"><p>Resume Building</p></span>
+    <span><img src="assets/projects.svg" alt="projects_img"><p>Real-Time projects</p></span>
+</div>
+    <div id="2r" style="display: flex;">
+        <span><img src="assets/idea.svg" alt="Starturp_img"><p>Pitching Startup Ideas</p></span>
+        <span><img src="assets/instructor.svg" alt="instructor_img"><p>Expert instructor</p></span>
+        <span><img src="assets/learning.svg" alt="learning_img"><p>Interactive Learning</p></span>
+        <span><img src="assets/certificate.svg" alt="certificate_img"><p>verified certificate</p></span>    
+    </div>
+</div>
+<div class="Learning-Experience">
+    <br><br><br>
+    <p>Why We Stand Out</p><br>
+    <h1><u>Best Learning Experience</u></h1><br><br><br>
+
+    <div class="le" id="pl">
+        <img src="assets/pc-learning.svg" alt="pcl">
+        <b>Practical Learning</b>
+        <p>Practical learning takes precedence with our 80% hands-on approach, ensuring students gain real-world skills</p>
+
+    </div>
+
+    <div class="le" id="dp">
+        <img src="assets/portfolio.svg" alt="portofolio">
+        <b>Dedicated Portfolio</b>
+        <p>Each student receives a personalized portfolio to showcase their projects and achievements</p>
+    </div>
+
+    <div class="le" id="ip">
+        <img src="assets/interview.svg" alt="interview">
+        <b>Interview Preparation</b>
+        <p>Our dedicated HR professionals provide personalized interview preparation guidance to maximize career opportunities</p>
+    </div>
+
+    <div class="le" id="si">
+        <img src="assets/startup.svg" alt="Ideas">
+        <b>Startup Ideas</b>
+        <p>We foster an entrepreneurial mindset, nurturing and supporting students' innovative startup ideas</p>
+    </div>
+    <br><br>
+</div>
+
+<div class="Training">
+    <div class="train" id="c-img">
+
+       <img src="assets/hashinclude-team.svg" alt="training-class"> <!-- <span><i></i></span> -->
+
+    </div>
+    <div class="train" id="text">
+        <p id="trainingid">Training</p>
+        <h1>Who is Hash Include for</h1>
+        <div class="tick_icon">
+            <img src="assets/tick-icon.svg" alt="tick-icoc"><p>Practical Learning Focus: 80% Hands-on Approach</p>
+        </div>
+        <div class="tick_icon">
+            <img src="assets/tick-icon.svg" alt="tick-icon">
+            <p>Dedicated Portfolio For Students</p>
+        </div>
+        <div class="tick_icon">
+            <img src="assets/tick-icon.svg" alt="tick-icoc"> <p>Online Accessible Certificates</p>
+        </div>
+        <div class="tick_icon">
+            <img src="assets/tick-icon.svg" alt="tick-icoc"><p> Dedicated HR's for Interview Preparation</p>
+        </div>
+        <div class="tick_icon">
+            <img src="assets/tick-icon.svg" alt="tick-icoc"><p> Encouragement of Startup Ideas</p>
+        </div>       
+    </div>
+</div>
+<div class="about_us">
+    <div class="about_section">
+        <div class="about" id="a_bout">
+            <img src="assets/aboutus.svg" alt="aboutus">
+        </div>
+        <div class="about" id="ab_out">
+            <p id="heading">About US</p><br>
+            <h1 style="text-align: left;">Crafting Careers in Technology</h1>
+            <p id="large_text">At Hash Include, we're dedicated to shaping the next generation of tech leaders.
+                 With a focus on practical skills and hands-on learning, our experienced instructors guide students
+                  through comprehensive courses designed to meet the demands of today's IT industry.
+            </p>
+            <a href="#LearnMore">Learn More</a>
+        </div>
+    </div>
+    
+    <div class="us">
+        <div class="bottom_section">
+            <h2 class="num">2<span class="symbol">+</span></h2>
+            <p id="text">Years of experience</p>
+        </div>
+        <div class="bottom_section">
+            <!-- <p id="num">10</p><p id="alpha">K</p> -->
+            <h2 class="num">10<span class="symbol">K</span></h2>
+            <p id="text">Students worldwide</p>
+        </div>
+        <div class="bottom_section">
+            <!-- <p id="num">5</p><sup>+</sup> -->
+            <h2 class="num">5<span class="symbol">+</span></h2>
+            <p id="text">Class subjects</p>
+        </div>
+        <div class="bottom_section">
+            <!-- <sub>9</sub><sup>8</sup><p>%</p> -->
+            <h2 class="num">98<span class="symbol">%</span></h2>
+            <p id="text">Student satisfactions</p>
+        </div> 
+    </div>
+</div>
+<div class="testimonial">
+    <p style="text-align: center; font-size: medium;">Testimonial</p>
+    <h1>Student Testimonial</h1>
+    <div class="testimonial-sec">
+        <div class="card">
+            <div class="sec1">
+                <img src="assets/student-1.svg" alt="student-img">
+                <div class="sec2">
+                    <p><b>Mahindra</b></p>
+                    <h3>UI/UX Design Student</h3>
+                    <h2 class="star"><img src="assets/star.svg" alt="star">  4.9</h2>
+                </div>
+                
+            </div>
+                <p>I had an incredible experience with Hash Include!The courses are well-structured, and the instructors go above and beyond to ensure students' success. Thanks to Hash Include, I landed my dream job in the tech industry.</p> 
+        </div>
+        <div class="card">
+            <div class="sec1">
+                <img src="assets/student-2.svg" alt="student-img">
+                <div class="sec2">
+                    <p><b>Rajya Lakshmi</b></p>
+                    <h3>Fullstack development Student</h3>
+                    <h2 class="star"><img src="assets/star.svg" alt="star">  4.9</h2>
+                </div>
+                
+            </div>
+            <p>Hash Include has been instrumental in advancing my career in software development. The instructors are knowledgeable and supportive, and the hands-on approach to learning has truly enhanced my skills.</p>
+        </div>
+        <div class="card">
+            <div class="sec1">
+                <img src="assets/student-3.svg" alt="student-img">
+                <div class="sec2">
+                    <p><b>Priyanka</b></p>
+                <h3>Frontend development student</h3>
+                <h2 class="star"><img src="assets/star.svg" alt="star">  4.9</h2>
+                </div>
+                
+            </div>
+            <p>Hash Include's community is incredibly welcoming and supportive. The networking opportunities provided have been invaluable in connecting with industry professionals and expanding my career prospects.</p>
+        </div>
+    </div> 
+</div>
+<div class="box_sec">
+    <h1>Grab the early slot at feasible price</h1>
+    <div class="box_sec1">
+        <div class="box_sec2">
+            
+            <div class="tick_icon">
+                <img src="assets/blue-tick.svg" alt="tick-icon"><p>Practical Learning Focus: 80% Hands-on Approach</p>
+            </div>
+            <div class="tick_icon">
+                <img src="assets/blue-tick.svg" alt="tick-icon"><p>Dedicated Portfolio For Students</p>
+            </div>
+            <div class="tick_icon">
+                <img src="assets/blue-tick.svg" alt="tick-icon"><p>Online Accessible Certificates</p>
+            </div>
+            <a href="#Apply now">Apply Now</a>
+        </div>
+        <div class="box_sec1">
+            <h2>Offer Expires Soon</h2>
+            <h1>11:25:45</h1>
+        </div>
+    </div>
+</div>
+</body>
+</html>
